@@ -1,0 +1,20 @@
+{
+  "ant-modal-import": {
+    "prefix": "yo-modal-import",
+    "body": [
+      "import React, { useState } from \"react\";",
+      "import { Modal, Button } from \"antd\";"
+    ],
+    "description": "yoo"
+  },
+  "ant-modal-1": {
+    "prefix": "yo-modal-1",
+    "body": [
+      "<Modal title=\"Basic Modal\" visible={isModalVisible} onOk={handleOk} onCancel={handleCancel}>",
+      "  <p>Some contents...</p>",
+      "  <p>Some contents...</p>",
+      "</Modal>"
+    ],
+    "description": "yoo"
+  }
+}
